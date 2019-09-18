@@ -21,16 +21,23 @@ GM_addStyle ( `
             max-height: max-content;
             height: max-content;
     }
+	
     #testDetailGrid .grid-column:not(.orderId-column):not(.attachmentsMap-column), #testDetailGridPopover .grid-column:not(.orderId-column):not(.attachmentsMap-column) {
         min-width: 30% !important;
     }
+	
+	#unfreezedGrid {
+	overflow-x: hidden !important;
+	}
+	
     #unfreezedGrid .grid-column[data-columnkey="data"] > div, #unfreezedGrid .grid-column[data-columnkey="result"] > div, #unfreezedGrid .grid-column[data-columnkey="step"] > div, #freezedGrid .grid-column[data-columnkey="data"] > div, #freezedGrid .grid-column[data-columnkey="result"] > div, #freezedGrid .grid-column[data-columnkey="step"] > div, .grid-column[data-columnkey="htmlStep"] > div, .grid-column[data-columnkey="htmlData"] > div, .grid-column[data-columnkey="htmlResult"] > div, .grid-column[data-columnkey="htmlStep"], .grid-column[data-columnkey="htmlData"], .grid-column[data-columnkey="htmlResult"], .grid-column[data-columnkey="data"], .grid-column[data-columnkey="result"], .grid-column[data-columnkey="step"] {
         max-width: 100% !important;
     }
+	
     #viewissuesidebar {
         width: 23% !important;
     }
-
+	
 ` );
 
 
