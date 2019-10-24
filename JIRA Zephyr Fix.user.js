@@ -42,6 +42,10 @@ GM_addStyle ( `
     #viewissuesidebar {
         width: 23% !important;
     }
+	
+	#content .execution-right-side-container {
+        width: 60%;
+   }
 
 ` );
 
